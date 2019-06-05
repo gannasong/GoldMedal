@@ -19,8 +19,8 @@ before_script:
   #- bundle exec danger 
   
 script:
-  - xcodebuild -workspace GOLDMEDAL.xcworkspace -scheme GOLDMEDAL -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  # - make travis
+  # - xcodebuild -workspace GOLDMEDAL.xcworkspace -scheme GOLDMEDAL -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - make travis
 
 notifications:
   email: false

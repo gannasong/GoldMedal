@@ -1,0 +1,67 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+app_ids = ["com.gannasong.GOLDMEDAL"]
+
+platform :ios do
+  before_all do
+  # binding.pry # Debugging
+  # Carthage & CocoaPods dependencies are already installed
+  clear_derived_data
+  setup_travis
+  end
+
+  desc "Build, test, and archive a completed feature on the develop branch."
+  lane :develop do
+    match
+    build
+  end
+
+  desc "Just build the project"
+  lane :build do |options|
+    xcodebuild(
+      workspace: "GOLDMEDAL.xcworkspace",
+      scheme: "GOLDMEDAL",
+      configuration: "Debug",
+      clean: options[:clean],
+      build: true,
+      destination: "generic/platform=iOS"
+    )
+  end
+  
+  # Post Actions
+
+  # This block is called, only if the executed lane was successful
+  after_all do |lane|
+    next unless test ENV["SLACK_URL"]
+    slack(
+      message: "Build succeeded",
+      payload: { :Version => version_with_build },
+      default_payloads: [:lane, :git_branch, :last_git_commit]
+    )
+  end
+
+  error do |lane, exception|
+    next unless ENV["SLACK_URL"]
+    slack(
+      message: exception.message,
+      success: false,
+      default_payloads: [:lane, :git_branch, :last_git_commit]
+    )
+  end
+
+end

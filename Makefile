@@ -1,2 +1,2 @@
 travis:
-	bundle exec fastlane build
+	bundle exec fastlane develop

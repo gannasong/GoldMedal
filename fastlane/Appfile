@@ -1,0 +1,8 @@
+app_identifier("com.gannasong.GOLDMEDAL") # The bundle identifier of your app
+apple_id("qwer810520@gmail.com") # Your Apple email address
+
+team_name("Kai Min Chang")
+team_id("ZLWY9M752A")
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
