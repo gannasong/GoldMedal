@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='GOLDMEDALTests.xctest' tests='2' failures='0'>
+  <testsuite name='GOLDMEDALTests.GOLDMEDALTests' tests='2' failures='0'>
+    <testcase classname='GOLDMEDALTests.GOLDMEDALTests' name='testExample' time='0.001'/>
+    <testcase classname='GOLDMEDALTests.GOLDMEDALTests' name='testPerformanceExample' time='0.337'/>
+  </testsuite>
+</testsuites>

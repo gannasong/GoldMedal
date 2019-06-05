@@ -27,12 +27,13 @@ platform :ios do
 
   desc "Build, test, and archive a completed feature on the develop branch."
   lane :develop do
-    match
+    # match
     build
   end
 
   desc "Just build the project"
   lane :build do |options|
+    prepare(type: "development")
     xcodebuild(
       workspace: "GOLDMEDAL.xcworkspace",
       scheme: "GOLDMEDAL",
@@ -44,6 +45,14 @@ platform :ios do
   end
   
   # Post Actions
+
+  desc "Prepare required provisioning profiles for each target"
+  lane :prepare do |options|
+    match(
+      app_identifier: app_ids,
+      type: options[:type] || "adhoc"
+    )
+  end
 
   # This block is called, only if the executed lane was successful
   after_all do |lane|
