@@ -1,0 +1,6 @@
+framework module Pods_GOLDMEDALTests {
+  umbrella header "Pods-GOLDMEDALTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495BE09322A810570024F6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495BE09222A810570024F6F4 /* AppDelegate.swift */; };
+		495BE09522A810570024F6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495BE09422A810570024F6F4 /* ViewController.swift */; };
+		495BE09822A810570024F6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495BE09622A810570024F6F4 /* Main.storyboard */; };
+		495BE09A22A8105B0024F6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495BE09922A8105B0024F6F4 /* Assets.xcassets */; };
+		495BE09D22A8105B0024F6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495BE09B22A8105B0024F6F4 /* LaunchScreen.storyboard */; };
+		495BE0A822A8105B0024F6F4 /* GOLDMEDALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495BE0A722A8105B0024F6F4 /* GOLDMEDALTests.swift */; };
+		B48A093949BB4294CE6FEB52 /* Pods_GOLDMEDAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B783F2E74FD24C9F1AF9D57 /* Pods_GOLDMEDAL.framework */; };
+		EA54776F0B9429FEDD63A174 /* Pods_GOLDMEDALTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DBCCBDEE390C95553FBEB6 /* Pods_GOLDMEDALTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		495BE0A422A8105B0024F6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495BE08722A810570024F6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495BE08E22A810570024F6F4;
+			remoteInfo = GOLDMEDAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		495BE08F22A810570024F6F4 /* GOLDMEDAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOLDMEDAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495BE09222A810570024F6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		495BE09422A810570024F6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		495BE09722A810570024F6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		495BE09922A8105B0024F6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495BE09C22A8105B0024F6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		495BE09E22A8105B0024F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495BE0A322A8105B0024F6F4 /* GOLDMEDALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOLDMEDALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495BE0A722A8105B0024F6F4 /* GOLDMEDALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOLDMEDALTests.swift; sourceTree = "<group>"; };
+		495BE0A922A8105B0024F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DBCCBDEE390C95553FBEB6 /* Pods_GOLDMEDALTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOLDMEDALTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B783F2E74FD24C9F1AF9D57 /* Pods_GOLDMEDAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOLDMEDAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72476D8D55987157B3976918 /* Pods-GOLDMEDALTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOLDMEDALTests.debug.xcconfig"; path = "Target Support Files/Pods-GOLDMEDALTests/Pods-GOLDMEDALTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE06294691DA7338E55337E7 /* Pods-GOLDMEDAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOLDMEDAL.debug.xcconfig"; path = "Target Support Files/Pods-GOLDMEDAL/Pods-GOLDMEDAL.debug.xcconfig"; sourceTree = "<group>"; };
+		F26AD723F215A45F8D5870AD /* Pods-GOLDMEDAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOLDMEDAL.release.xcconfig"; path = "Target Support Files/Pods-GOLDMEDAL/Pods-GOLDMEDAL.release.xcconfig"; sourceTree = "<group>"; };
+		F6E4E0992EAFF0F14EA34E65 /* Pods-GOLDMEDALTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOLDMEDALTests.release.xcconfig"; path = "Target Support Files/Pods-GOLDMEDALTests/Pods-GOLDMEDALTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495BE08C22A810570024F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A093949BB4294CE6FEB52 /* Pods_GOLDMEDAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495BE0A022A8105B0024F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA54776F0B9429FEDD63A174 /* Pods_GOLDMEDALTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D85303C3424C2DE0D92D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B783F2E74FD24C9F1AF9D57 /* Pods_GOLDMEDAL.framework */,
+				51DBCCBDEE390C95553FBEB6 /* Pods_GOLDMEDALTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495BE08622A810570024F6F4 = {
+			isa = PBXGroup;
+			children = (
+				495BE09122A810570024F6F4 /* GOLDMEDAL */,
+				495BE0A622A8105B0024F6F4 /* GOLDMEDALTests */,
+				495BE09022A810570024F6F4 /* Products */,
+				E27CBA69013BE43FFB179DCB /* Pods */,
+				03D85303C3424C2DE0D92D99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		495BE09022A810570024F6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495BE08F22A810570024F6F4 /* GOLDMEDAL.app */,
+				495BE0A322A8105B0024F6F4 /* GOLDMEDALTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495BE09122A810570024F6F4 /* GOLDMEDAL */ = {
+			isa = PBXGroup;
+			children = (
+				495BE09222A810570024F6F4 /* AppDelegate.swift */,
+				495BE09422A810570024F6F4 /* ViewController.swift */,
+				495BE09622A810570024F6F4 /* Main.storyboard */,
+				495BE09922A8105B0024F6F4 /* Assets.xcassets */,
+				495BE09B22A8105B0024F6F4 /* LaunchScreen.storyboard */,
+				495BE09E22A8105B0024F6F4 /* Info.plist */,
+			);
+			path = GOLDMEDAL;
+			sourceTree = "<group>";
+		};
+		495BE0A622A8105B0024F6F4 /* GOLDMEDALTests */ = {
+			isa = PBXGroup;
+			children = (
+				495BE0A722A8105B0024F6F4 /* GOLDMEDALTests.swift */,
+				495BE0A922A8105B0024F6F4 /* Info.plist */,
+			);
+			path = GOLDMEDALTests;
+			sourceTree = "<group>";
+		};
+		E27CBA69013BE43FFB179DCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE06294691DA7338E55337E7 /* Pods-GOLDMEDAL.debug.xcconfig */,
+				F26AD723F215A45F8D5870AD /* Pods-GOLDMEDAL.release.xcconfig */,
+				72476D8D55987157B3976918 /* Pods-GOLDMEDALTests.debug.xcconfig */,
+				F6E4E0992EAFF0F14EA34E65 /* Pods-GOLDMEDALTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495BE08E22A810570024F6F4 /* GOLDMEDAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495BE0AC22A8105B0024F6F4 /* Build configuration list for PBXNativeTarget "GOLDMEDAL" */;
+			buildPhases = (
+				AEFE0B0804A5848879A6FE46 /* [CP] Check Pods Manifest.lock */,
+				495BE08B22A810570024F6F4 /* Sources */,
+				495BE08C22A810570024F6F4 /* Frameworks */,
+				495BE08D22A810570024F6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOLDMEDAL;
+			productName = GOLDMEDAL;
+			productReference = 495BE08F22A810570024F6F4 /* GOLDMEDAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495BE0A222A8105B0024F6F4 /* GOLDMEDALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495BE0AF22A8105B0024F6F4 /* Build configuration list for PBXNativeTarget "GOLDMEDALTests" */;
+			buildPhases = (
+				111D2B5CD693E0A018825187 /* [CP] Check Pods Manifest.lock */,
+				495BE09F22A8105B0024F6F4 /* Sources */,
+				495BE0A022A8105B0024F6F4 /* Frameworks */,
+				495BE0A122A8105B0024F6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495BE0A522A8105B0024F6F4 /* PBXTargetDependency */,
+			);
+			name = GOLDMEDALTests;
+			productName = GOLDMEDALTests;
+			productReference = 495BE0A322A8105B0024F6F4 /* GOLDMEDALTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495BE08722A810570024F6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = GanNaSong;
+				TargetAttributes = {
+					495BE08E22A810570024F6F4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					495BE0A222A8105B0024F6F4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 495BE08E22A810570024F6F4;
+					};
+				};
+			};
+			buildConfigurationList = 495BE08A22A810570024F6F4 /* Build configuration list for PBXProject "GOLDMEDAL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495BE08622A810570024F6F4;
+			productRefGroup = 495BE09022A810570024F6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495BE08E22A810570024F6F4 /* GOLDMEDAL */,
+				495BE0A222A8105B0024F6F4 /* GOLDMEDALTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495BE08D22A810570024F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495BE09D22A8105B0024F6F4 /* LaunchScreen.storyboard in Resources */,
+				495BE09A22A8105B0024F6F4 /* Assets.xcassets in Resources */,
+				495BE09822A810570024F6F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495BE0A122A8105B0024F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		111D2B5CD693E0A018825187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOLDMEDALTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFE0B0804A5848879A6FE46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOLDMEDAL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495BE08B22A810570024F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495BE09522A810570024F6F4 /* ViewController.swift in Sources */,
+				495BE09322A810570024F6F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495BE09F22A8105B0024F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495BE0A822A8105B0024F6F4 /* GOLDMEDALTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495BE0A522A8105B0024F6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495BE08E22A810570024F6F4 /* GOLDMEDAL */;
+			targetProxy = 495BE0A422A8105B0024F6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		495BE09622A810570024F6F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495BE09722A810570024F6F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		495BE09B22A8105B0024F6F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495BE09C22A8105B0024F6F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495BE0AA22A8105B0024F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		495BE0AB22A8105B0024F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495BE0AD22A8105B0024F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE06294691DA7338E55337E7 /* Pods-GOLDMEDAL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GOLDMEDAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.GOLDMEDAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		495BE0AE22A8105B0024F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26AD723F215A45F8D5870AD /* Pods-GOLDMEDAL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GOLDMEDAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.GOLDMEDAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		495BE0B022A8105B0024F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72476D8D55987157B3976918 /* Pods-GOLDMEDALTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
+				INFOPLIST_FILE = GOLDMEDALTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.GOLDMEDALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOLDMEDAL.app/GOLDMEDAL";
+			};
+			name = Debug;
+		};
+		495BE0B122A8105B0024F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E4E0992EAFF0F14EA34E65 /* Pods-GOLDMEDALTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
+				INFOPLIST_FILE = GOLDMEDALTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.GOLDMEDALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOLDMEDAL.app/GOLDMEDAL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495BE08A22A810570024F6F4 /* Build configuration list for PBXProject "GOLDMEDAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BE0AA22A8105B0024F6F4 /* Debug */,
+				495BE0AB22A8105B0024F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495BE0AC22A8105B0024F6F4 /* Build configuration list for PBXNativeTarget "GOLDMEDAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BE0AD22A8105B0024F6F4 /* Debug */,
+				495BE0AE22A8105B0024F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495BE0AF22A8105B0024F6F4 /* Build configuration list for PBXNativeTarget "GOLDMEDALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BE0B022A8105B0024F6F4 /* Debug */,
+				495BE0B122A8105B0024F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495BE08722A810570024F6F4 /* Project object */;
+}
