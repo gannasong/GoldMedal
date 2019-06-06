@@ -21,11 +21,6 @@ or alternatively using `brew cask install fastlane`
 fastlane ios develop
 ```
 Build, test, and archive a completed feature on the develop branch.
-### ios tests
-```
-fastlane ios tests
-```
-
 ### ios build
 ```
 fastlane ios build
