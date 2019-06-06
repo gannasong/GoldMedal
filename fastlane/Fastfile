@@ -56,10 +56,10 @@ platform :ios do
 
   # This block is called, only if the executed lane was successful
   after_all do |lane|
-    next unless test ENV["SLACK_URL"]
+    next unless ENV["SLACK_URL"]
     slack(
       message: "Build succeeded",
-      payload: { :Version => version_with_build },
+      # payload: { :Version => version_with_build },
       default_payloads: [:lane, :git_branch, :last_git_commit]
     )
   end
